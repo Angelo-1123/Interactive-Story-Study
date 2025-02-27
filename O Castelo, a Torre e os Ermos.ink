@@ -238,7 +238,7 @@ The beast lunges at you, knocking you to the ground trying to bite your neck.
 
 {vidas < 1: You fall under the beasts weight, even with all your strength, it is impossible to repel its powerful bite. -> Game_Over2}
 
-{vidas > 0: You break free from the beast rolling to the side. While you get up, you feel the deep wounds left by the creature. {vidas == 1: Another strike lunge like that and you know you're done.}}
+{vidas > 0: You break free from the beast rolling to the side. While you get up, you feel the deep wounds left by the creature. {vidas == 1: Another strike lunge like that and you know you're done.} -> Menu_Beast_Combat}
 
 = Beast_Victory
 
@@ -258,7 +258,7 @@ While you recover, light steps can be heard from a nearby alley.
 
 = Merchant_Dialogue
 
-*[What kind of name is "Carrion"?] -> Tender_Nickname
+*[What kind of name is "Carrion"?] -> Tender_Nickname -> Merchant_Dialogue
 * "Merchant?" -> The_Merchant2
 
 = Tender_Nickname
@@ -1878,10 +1878,17 @@ Você recolhe as 20 moedas.
 
 Você morreu...
 
-    -> END
+*[Tentar Novamente] -> Restart
     
 === Game_Over2 ===
 
 You died...
+    
+*[Try Again] -> Restart
 
-    -> END
+=== Restart ===
+
+#RESTART
+
+-> END
+    
