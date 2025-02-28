@@ -926,7 +926,7 @@ Disarmed of his sword, the Tyrant strikes you with the sharp claws that grow fro
 {vidas == 1: You don't know how you resisted this strike, but you know you won't resist the next one.}
 
 {vidas < 1:
-Você sente a ferida arder conforme tomba no chão. O Tirano flutua para perto de você e murmura com sua voz grave "Mais um herói tolo, mais uma alma para saciar minha sede!" ->Game_Over2
+You feel the wound ache as you fall to the ground. The Tyrant floats closer to you and whispers with his deep voice "Another foolish hero, another soul to quench my thirst!" ->Game_Over2
 -else:
 {   Gauntlet_Success:
         You feel the gauntlet vibrate with energy, making you faster. Fast enough that you can strike the Tyrant before he can defend himself.
