@@ -8,6 +8,8 @@ It explores ways to make every run a little different from the one before using 
 
 It explores the use of hidden choices, available only if you uncover some secret of retrieve some item.
 
+# Estudo de História Interativa
+
 Esse jogo foi feito como uma forma de estudar Inky, um motor de diálogos para jogos (ferramenta que visa reunir todas as funcionalidades necessárias para desenvolver e gerenciar diálogos dentro do projeto de um jogo). É possível acessar o código fonte executando "O Castelo, a Torre e os Ermos.ink" com o Inky, desde que o Inky esteja instalado na máquina. No entanto, para apenas jogar o jogo, basta baixar os arquivos e executar o "index.html".
 
 A história desenvolvida faz uso de variáveis para guardar os pontos de vida do jogador, quanto dano ele inflige em um golpe e quantas moedas ele carrega. As moedas podem ser gastas em uma loja, desde que ele consiga encontrá-la.
